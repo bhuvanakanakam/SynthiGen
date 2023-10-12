@@ -1,0 +1,80 @@
+.synthiGen__header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: radial-gradient(circle at 26% 47%, rgba(6, 10, 33, 0.76) 0%, rgba(24, 34, 70, 0.88) 55%, rgba(58, 62, 86, 0.97) 100%);
+}
+
+
+.synthiGen__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.synthiGen__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.synthiGen__header-content p {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 25px;
+    color: beige;
+
+    margin-top: 1.5rem;
+}
+
+.synthiGen__header-content__input {
+    width: 100%;
+    margin: 1rem 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.synthiGen__header-content__input input {
+    flex: 0.4;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #ffffff;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.synthiGen__header-content__input button {
+    flex: 0.1;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+    outline: none;
+    background: #653361;
+    border: 2px solid #653361;
+    padding: 0 1rem;
+
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

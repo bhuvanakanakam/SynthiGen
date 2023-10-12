@@ -1,0 +1,22 @@
+.gpt3__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: radial-gradient(circle at 11% 89%, rgba(6, 10, 33, 0.76) 0%, rgba(24, 34, 70, 0.88) 50%, rgba(24, 34, 70, 0.88) 51%, rgba(58, 62, 86, 0.97) 100%);
+
+}
+
+.synthiGen__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.synthiGen__footer-copyright p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+}
