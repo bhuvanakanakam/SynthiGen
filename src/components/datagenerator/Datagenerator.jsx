@@ -49,6 +49,45 @@ const DataGenerator = () => {
                 { name: 'Claim Amount', fieldType: 'claim_amount', constraint: '' },
                 { name: 'Claim Date', fieldType: 'claim_date', constraint: '' },
             ]);
+        } else if (e.target.value === 'choose_your_own') {
+            setAttributes([
+                // Add your desired options here
+                { name: 'Number', fieldType: 'number', constraint: 'Numeric constraint enter the input format (eg: 12345)' },
+                { name: 'First Name', fieldType: 'first_name', constraint: '' },
+                { name: 'Female First Name', fieldType: 'first_name_female', constraint: '' },
+                { name: 'Male First Name', fieldType: 'first_name_male', constraint: '' },
+                { name: 'Female Name', fieldType: 'name_female', constraint: '' },
+                { name: 'Male Name', fieldType: 'name_male', constraint: '' },
+                { name: 'Last Name', fieldType: 'last_name', constraint: '' },
+                { name: 'Email', fieldType: 'email', constraint: '' },
+                { name: 'Phone Number', fieldType: 'phone_number', constraint: '' },
+                { name: 'Birth Date', fieldType: 'birth_date', constraint: '' },
+                { name: 'Date', fieldType: 'date', constraint: '' },
+                { name: 'Month', fieldType: 'month', constraint: '' },
+                { name: 'Month Name', fieldType: 'month_name', constraint: '' },
+                { name: 'Year', fieldType: 'year', constraint: '' },
+                { name: 'Time', fieldType: 'time', constraint: '' },
+                { name: 'Address', fieldType: 'address', constraint: '' },
+                { name: 'City', fieldType: 'city', constraint: '' },
+                { name: 'State', fieldType: 'state', constraint: '' },
+                { name: 'Country', fieldType: 'country', constraint: '' },
+                { name: 'Zip Code', fieldType: 'zip_code', constraint: '' },
+                { name: 'Department', fieldType: 'department', constraint: '' },
+                { name: 'Job', fieldType: 'job', constraint: '' },
+                { name: 'Salary', fieldType: 'salary', constraint: '' },
+                { name: 'Color', fieldType: 'color', constraint: '' },
+                { name: 'Boolean', fieldType: 'boolean', constraint: '' },
+                { name: 'Company', fieldType: 'company', constraint: '' },
+                { name: 'Company Suffix', fieldType: 'company_suffix', constraint: '' },
+                { name: 'Weekday Name', fieldType: 'weekday_name', constraint: '' },
+                { name: 'Language', fieldType: 'language', constraint: '' },
+                { name: 'Credit Card Number', fieldType: 'credit_card_number', constraint: '' },
+                { name: 'Credit Card Provider', fieldType: 'credit_card_provider', constraint: '' },
+                { name: 'Credit Card Expire Date', fieldType: 'credit_card_expiredate', constraint: 'Alpha Numeric constraint enter the input format (eg: abc23d)' },
+                { name: 'Alpha Numeric', fieldType: 'alpha_numeric', constraint: 'Numeric_Relation constraint enter the attribute which you want to relate' },
+                { name: 'Numeric', fieldType: 'numeric', constraint: 'Numeric constraint enter the input format (eg: 12345)' },
+                { name: 'Numeric_Relation', fieldType: 'numeric_relation', constraint: 'enter the attribute which you want to relate' },
+            ]);
         }
     };
 
@@ -129,7 +168,27 @@ const DataGenerator = () => {
                                     >
                                         <option value="number">Number</option>
                                         <option value="string">String</option>
-                                        <option value="dropdown">Dropdown</option>
+                                        <option value="date">Date</option>
+                                        <option value="month">Month</option>
+                                        <option value="month_name">Month Name</option>
+                                        <option value="year">Year</option>
+                                        <option value="time">Time</option>
+                                        <option value="address">Address</option>
+                                        <option value="city">City</option>
+                                        <option value="state">State</option>
+                                        <option value="country">Country</option>
+                                        <option value="zip_code">Zip Code</option>
+                                        <option value="department">Department</option>
+                                        <option value="job">Job</option>
+                                        <option value="salary">Salary</option>
+                                        <option value="color">Color</option>
+                                        <option value="boolean">Boolean</option>
+                                        <option value="company">Company</option>
+                                        <option value="company_suffix">Company Suffix</option>
+                                        <option value="weekday_name">Weekday Name</option>
+                                        <option value="language">Language</option>
+                                        <option value="credit_card_number">Credit Card Number</option>
+                                        <option value="credit_card_provider">Credit Card Provider</option>
                                     </select>
                                 </td>
                                 <td>

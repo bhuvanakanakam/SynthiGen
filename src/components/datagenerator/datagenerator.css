@@ -26,7 +26,7 @@
 .synthiGen__datagenerator select {
     font-family: var(--font-family);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 28px;
     cursor: pointer;
     outline: none;
@@ -55,6 +55,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     text-align: left;
+
 }
 
 .synthiGen__datagenerator table th {
