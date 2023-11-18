@@ -1,5 +1,5 @@
 # SynthiGen Data Generator
-Dell Hack-to-Hire Hackathon
+Dell Hack-to-Hire Hackathon \\
 Won the First Place, Winner's of the October'23 HackToHire Event conducted by Dell.
 
 The problem statement, given is : 
