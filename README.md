@@ -1,4 +1,4 @@
-# Take-A-Break-While-Working
+# SynthiGen Data Generator
 Dell Hack-to-Hire Hackathon
 Won the First Place, Winner's of the October'23 HackToHire Event conducted by Dell.
 
